@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #6f6863;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #100f0f;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+

@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background -->
+  <defs>
+    <linearGradient id="brightOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FB8C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="darkOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F57C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E65100;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(40, 40)">
+    <!-- 3D Cube/Hexagon -->
+    <!-- Left face -->
+    <path d="M0,40 L40,60 L40,100 L0,80 Z" fill="url(#darkOrange)" />
+    
+    <!-- Right face -->
+    <path d="M120,40 L80,60 L80,100 L120,80 Z" fill="url(#darkOrange)" />
+    
+    <!-- Top face -->
+    <path d="M0,40 L60,0 L120,40 L60,80 Z" fill="url(#brightOrange)" />
+    
+    <!-- Middle diamond -->
+    <path d="M40,60 L60,45 L80,60 L60,75 Z" fill="none" stroke="#FF9800" stroke-width="4" />
+    
+    <!-- Connecting lines from outer shape to middle diamond -->
+    <path d="M60,0 L60,45" stroke="#FF9800" stroke-width="4" />
+    <path d="M60,75 L60,120" stroke="#FF9800" stroke-width="4" />
+    <path d="M0,40 L40,60" stroke="#FF9800" stroke-width="4" />
+    <path d="M120,40 L80,60" stroke="#FF9800" stroke-width="4" />
+    <path d="M0,80 L40,100" stroke="#FF9800" stroke-width="4" />
+    <path d="M120,80 L80,100" stroke="#FF9800" stroke-width="4" />
+    
+    <!-- Bottom corners -->
+    <path d="M40,100 L60,120 L80,100" fill="url(#brightOrange)" />
+  </g>
+</svg> 

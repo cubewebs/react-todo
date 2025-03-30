@@ -1,0 +1,25 @@
+.bordered-button {
+  background-color: transparent;
+  color: #ff9800;
+  border: 1px solid #ff9800;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.bordered-button:hover {
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+.bordered-button:active {
+  background-color: rgba(255, 152, 0, 0.2);
+}
+
+.bordered-button:disabled {
+  color: rgba(255, 152, 0, 0.5);
+  border-color: rgba(255, 152, 0, 0.5);
+  cursor: not-allowed;
+} 

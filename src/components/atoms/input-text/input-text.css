@@ -1,0 +1,48 @@
+.input-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.input-text-label {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #6f6863;
+  margin-bottom: 4px;
+}
+
+.input-text-required {
+  color: #ff9800;
+  margin-left: 4px;
+}
+
+.input-text {
+  background-color: transparent;
+  color: #6f6863;
+  border: 1px solid #ff9800;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-text:focus {
+  box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2);
+}
+
+.input-text:hover:not(:disabled) {
+  border-color: #f57c00;
+}
+
+.input-text::placeholder {
+  color: #9e9e9e;
+}
+
+.input-text:disabled {
+  border-color: #e0e0e0;
+  color: #9e9e9e;
+  cursor: not-allowed;
+} 

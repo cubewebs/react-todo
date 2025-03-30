@@ -1,0 +1,24 @@
+.accent-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.accent-button:hover {
+  background-color: #f57c00;
+}
+
+.accent-button:active {
+  background-color: #ef6c00;
+}
+
+.accent-button:disabled {
+  background-color: #ffcc80;
+  cursor: not-allowed;
+} 
